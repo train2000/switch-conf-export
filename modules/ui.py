@@ -16,6 +16,7 @@ class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        MainWindow.setWindowIcon(QtGui.QIcon("bs.ico"))
         MainWindow.resize(661, 487)
         MainWindow.setFixedSize(661, 487)
         font = QtGui.QFont()
